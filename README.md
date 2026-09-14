@@ -5,7 +5,7 @@
 ## 下载
 
 到 [Releases](https://github.com/dejectedraven/HPMAMagicQuiz-Release/releases) 页面下载最新版
-`HPMAMagicQuiz-CPU-v1.0.0.exe`（单文件约 114 MB）。
+`HPMAMagicQuiz-CPU-v1.1.0.exe`（单文件约 114 MB）。
 
 ## 使用
 
@@ -21,11 +21,20 @@
 
 - **鼠标不动/点击无效**：必须管理员运行（exe 已内置管理员清单，双击弹 UAC 即可）
 - **想用 GPU 加速**：本版是 CPU 版（单题约 1 秒）；GPU 版需要单独装 CUDA 环境
-- **更新**：下载新版 exe 覆盖旧的即可，题库和配置在旁边不会被覆盖
+- **更新程序**：下载新版 exe 覆盖旧的即可，题库和配置在旁边不会被覆盖
 - **报毒**：PyInstaller 打包的 exe 偶尔会被杀软误报，加白名单即可
+
+## 数据自动同步（不用重新下载 exe）
+
+启动时会从发布仓库自动拉取：
+
+- **白名单**（`whitelist.json`）：管理员加/删授权号后，用户下次启动自动生效
+- **题库**（`bank.json` + `data/questions.csv`）：管理员更新题库后自动合并
+  （同题以管理员版本为准，用户自己学到的独有题目保留）
+- 拉不到网络时用本地缓存/内置版本，**离线照样能用**
 
 ## 版本
 
-当前版本：v1.0.0（见 `latest.json`）
+当前版本：v1.1.0（见 `latest.json`）
 
 仅供学习交流，请自行评估风险（包括游戏账号风险）。
