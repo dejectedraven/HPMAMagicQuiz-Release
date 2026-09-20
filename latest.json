@@ -1,8 +1,8 @@
 {
-  "version": "1.2.2",
-  "asset": "HPMAMagicQuiz-CPU-v1.2.2.exe",
-  "size": 120701685,
-  "sha256": "34ffffec92b8b689fe0a6de6dac370e23db462703ec408f4d29457d02fe7980a",
+  "version": "1.2.3",
+  "asset": "HPMAMagicQuiz-CPU-v1.2.3.exe",
+  "size": 120702576,
+  "sha256": "125baae78028863a3bd8831f6a50845e829a32ff1e7cd0f4c35c24e05ffcdba6",
   "date": "2026-09-20",
-  "download": "https://github.com/dejectedraven/HPMAMagicQuiz-Release/releases/download/v1.2.2/HPMAMagicQuiz-CPU-v1.2.2.exe"
+  "download": "https://github.com/dejectedraven/HPMAMagicQuiz-Release/releases/download/v1.2.3/HPMAMagicQuiz-CPU-v1.2.3.exe"
 }
