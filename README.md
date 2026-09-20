@@ -5,7 +5,7 @@
 ## 下载
 
 到 [Releases](https://github.com/dejectedraven/HPMAMagicQuiz-Release/releases) 页面下载最新版
-`HPMAMagicQuiz-CPU-v1.2.1.exe`（单文件约 115 MB）。
+`HPMAMagicQuiz-CPU-v1.2.2.exe`（单文件约 115 MB）。
 
 ## 使用
 
@@ -35,6 +35,6 @@
 
 ## 版本
 
-当前版本：v1.2.1（见 `latest.json`）
+当前版本：v1.2.2（见 `latest.json`）
 
 仅供学习交流，请自行评估风险（包括游戏账号风险）。
